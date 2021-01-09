@@ -31,7 +31,7 @@ void loop()
 
 void valveHeating(float temp) { 
 
-  if(temp >= 1 && temp <= 3) {
+  if(temp >= 1 && temp <= 4) {
     digitalWrite(led, HIGH);
   } else {
     digitalWrite(led, LOW);
